@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<process version="5.3.015">
+  <context>
+    <input/>
+    <output/>
+    <macros/>
+  </context>
+  <operator activated="true" class="process" compatibility="5.3.015" expanded="true" name="Process">
+    <parameter key="logverbosity" value="init"/>
+    <parameter key="resultfile" value="D:\Documents\GitHub\advanced-process-mining\assignment1\petrinet.rmp"/>
+    <parameter key="random_seed" value="2001"/>
+    <parameter key="send_mail" value="never"/>
+    <parameter key="notification_email" value=""/>
+    <parameter key="process_duration_for_mail" value="30"/>
+    <parameter key="encoding" value="SYSTEM"/>
+    <process expanded="true">
+      <operator activated="true" class="prom:prom_context" compatibility="1.0.009" expanded="true" height="60" name="ProM Context" width="90" x="45" y="75"/>
+      <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="112" name="Multiply" width="90" x="45" y="165"/>
+      <operator activated="true" class="prom:read_log" compatibility="1.0.009" expanded="true" height="60" name="Read Log File" width="90" x="179" y="75">
+        <parameter key="Visualize Log" value="Visualize Log as ExampleSet"/>
+        <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment1\APM_First_Assignment.xes"/>
+        <parameter key="type of the log file" value="Buffered"/>
+      </operator>
+      <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (2)" width="90" x="313" y="345"/>
+      <operator activated="true" class="prom:ilp_miner" compatibility="1.0.009" expanded="true" height="76" name="ILP Miner" width="90" x="447" y="75">
+        <parameter key="Variant" value="EmptyAfterCompletionILPModel"/>
+      </operator>
+      <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (4)" width="90" x="581" y="75"/>
+      <operator activated="true" class="prom:replay_a_log_on_petri_net_for_performance_conformance_analysis" compatibility="1.0.009" expanded="true" height="94" name="Replay a Log on Petri Net for Performance / Conformance Analysis" width="90" x="581" y="255">
+        <parameter key="visualize performance" value="Project Manifest to Model for Conformance"/>
+        <parameter key="Max Explored States (in Hundreds)" value="100"/>
+      </operator>
+      <connect from_op="ProM Context" from_port="context (ProM Context)" to_op="Multiply" to_port="input"/>
+      <connect from_op="Multiply" from_port="output 1" to_op="Read Log File" to_port="context (ProM Context)"/>
+      <connect from_op="Multiply" from_port="output 2" to_op="ILP Miner" to_port="context (ProM Context)"/>
+      <connect from_op="Multiply" from_port="output 3" to_op="Replay a Log on Petri Net for Performance / Conformance Analysis" to_port="context (ProM Context)"/>
+      <connect from_op="Read Log File" from_port="event log (ProM Event Log)" to_op="Multiply (2)" to_port="input"/>
+      <connect from_op="Multiply (2)" from_port="output 1" to_op="ILP Miner" to_port="event log (ProM Event Log)"/>
+      <connect from_op="Multiply (2)" from_port="output 2" to_op="Replay a Log on Petri Net for Performance / Conformance Analysis" to_port="event log (ProM Event Log)"/>
+      <connect from_op="ILP Miner" from_port="model (ProM Petri Net)" to_op="Multiply (4)" to_port="input"/>
+      <connect from_op="Multiply (4)" from_port="output 1" to_port="result 1"/>
+      <connect from_op="Multiply (4)" from_port="output 2" to_op="Replay a Log on Petri Net for Performance / Conformance Analysis" to_port="model (ProM Petri Net)"/>
+      <connect from_op="Replay a Log on Petri Net for Performance / Conformance Analysis" from_port="model (ProM Manifest)" to_port="result 2"/>
+      <portSpacing port="source_input 1" spacing="0"/>
+      <portSpacing port="sink_result 1" spacing="0"/>
+      <portSpacing port="sink_result 2" spacing="0"/>
+      <portSpacing port="sink_result 3" spacing="0"/>
+    </process>
+  </operator>
+</process>
