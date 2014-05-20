@@ -23,7 +23,7 @@
       <operator activated="true" class="loop_parameters" compatibility="5.3.015" expanded="true" height="130" name="Loop Parameters" width="90" x="313" y="30">
         <list key="parameters">
           <parameter key="Add Noise Log Filter.Noise Percentage" value="[0.0;70.0;7;linear]"/>
-          <parameter key="Add Noise Log Filter.Noise Type" value="Add Event"/>
+          <parameter key="Add Noise Log Filter.Noise Type" value="Add Event,Remove Head,Remove Body,Swap Tasks,Remove Task"/>
         </list>
         <parameter key="synchronize" value="false"/>
         <process expanded="true">
