@@ -1,0 +1,3 @@
+Minig skeleton: Basic Log Relations
+Mine petri net: Alpha Miner
+Mine petri net size: 20
