@@ -1,0 +1,3 @@
+Mining skeleton: Basic Log Relations
+Mine petri net: Exhaustive Miner
+Mine petri net size: 20
