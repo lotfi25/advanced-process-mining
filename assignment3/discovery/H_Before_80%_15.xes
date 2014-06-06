@@ -1,0 +1,2555 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file has been generated with the OpenXES library. It conforms -->
+<!-- to the XML serialization of the XES standard for log storage and -->
+<!-- management. -->
+<!-- XES standard version: 1.0 -->
+<!-- OpenXES library version: 1.0RC7 -->
+<!-- OpenXES is available from http://www.openxes.org/ -->
+<log xes.version="1.0" xes.features="nested-attributes" openxes.version="1.0RC7" xmlns="http://www.xes-standard.org/">
+	<string key="creator" value="Fluxicon Disco"/>
+	<string key="library" value="Fluxicon Octane"/>
+	<string key="concept:name" value="Anonymous log imported from radiologie.xes.gz (filtered on simple heuristics) (filtered on simple heuristics)"/>
+	<string key="description" value="process with id Anonymous log imported from radiologie.xes.gz"/>
+	<string key="lifecycle:model" value="standard"/>
+	<string key="source" value="XES MXML serialization"/>
+	<trace>
+		<string key="description" value="instance with id 1125265"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="1125265_1"/>
+		<event>
+			<string key="Contactid" value="{5799C415-A7FA-E211-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-08-01T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Janus"/>
+			<string key="org:resource" value="OrthoZ"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P56"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{C2FF4416-1F00-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-08-08T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="I-P2"/>
+			<string key="org:resource" value="NuclGen"/>
+			<string key="concept:name" value="Nuclear medicine"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.1w38"/>
+			<string key="TypeAfspraak" value="Injectie botscintigrafie"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{A15C0C1E-C800-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="45.0"/>
+			<date key="time:timestamp" value="2013-08-08T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="I-kamer 2"/>
+			<string key="org:resource" value="NuclGen"/>
+			<string key="concept:name" value="Nuclear medicine"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.1w38"/>
+			<string key="TypeAfspraak" value="Botscintigrafie totaal"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Bekken"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{9F706F9B-4C57-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Bekken"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 1606689"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="1606689_1"/>
+		<event>
+			<string key="Contactid" value="{7B00666D-35F5-E211-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="20.0"/>
+			<date key="time:timestamp" value="2013-07-25T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Braakhekke"/>
+			<string key="org:resource" value="Neuro"/>
+			<string key="concept:name" value="Neurology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P26"/>
+			<string key="TypeAfspraak" value="EPB + EMG"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{BDF43A00-A755-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 2766396"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="2766396_1"/>
+		<event>
+			<string key="Contactid" value="{0C5816D4-D151-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-20T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="mevr. Hofstede"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P3"/>
+			<string key="TypeAfspraak" value="Controle Orthoptie kind"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Hand links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{304F05AB-B955-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Hand links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 2770717"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="2770717_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Neusbijholten/lilienfeld"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{F9CBDCCA-A856-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Neusbijholten/lilienfeld"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 2895067"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="2895067_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Os coccygis"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{DC1E0C24-4457-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Os coccygis"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 2905254"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="2905254_1"/>
+		<event>
+			<string key="Contactid" value="{CAEAD049-6A2A-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-10-01T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Echokamer 4"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w79"/>
+			<string key="TypeAfspraak" value="Echo patient"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{88DBC5F9-9D34-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-14T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="ECG kamer"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="ECG"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{080808E3-A134-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-10-14T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Van der Meer (arts i.o.)"/>
+			<string key="org:resource" value="Cardio"/>
+			<string key="concept:name" value="Cardiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w80"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{720982F3-5148-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-11-05T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Ergometrie 3"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w79"/>
+			<string key="TypeAfspraak" value="Ergometrie patient"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{58BDD19A-5348-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-05T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Van der Meer (arts i.o.)"/>
+			<string key="org:resource" value="Cardio"/>
+			<string key="concept:name" value="Cardiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w80"/>
+			<string key="TypeAfspraak" value="Uitslag ergo"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Schouder rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{8D8606A9-CA58-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Schouder rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 2948761"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="2948761_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{AC2C809B-3658-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 2952282"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="2952282_1"/>
+		<event>
+			<string key="Contactid" value="{96E8F94D-A556-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Orthopeed i.o bij dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Schouder links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{DBAA10F8-9B56-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Schouder links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id -296492"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="-296492_1"/>
+		<event>
+			<string key="Contactid" value="{90378138-8456-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Echokamer 6"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w79"/>
+			<string key="TypeAfspraak" value="DCC Echo patient"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{7B4AC6A0-8056-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="ECG kamer"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="ECG DCC"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{43664082-DD58-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Sluman"/>
+			<string key="org:resource" value="Cardio"/>
+			<string key="concept:name" value="Cardiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt H"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{3E22D561-DE58-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 2994432"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="2994432_1"/>
+		<event>
+			<string key="Contactid" value="{0C77D7B3-A556-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{F7543290-9F56-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 2994954"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="2994954_1"/>
+		<event>
+			<string key="Contactid" value="{7D3E2042-A5FA-E211-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-08-01T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="I-SZ|P2.73"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{2690145F-B305-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-08-13T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{BD370870-050C-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-08-23T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{B658D38C-2C16-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-09-04T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Lutgert"/>
+			<string key="org:resource" value="KNO"/>
+			<string key="concept:name" value="ENT"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|KNOw2"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{8E61DD86-FB19-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-09-10T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Lutgert"/>
+			<string key="org:resource" value="KNO"/>
+			<string key="concept:name" value="ENT"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt H"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{9A705421-BE1A-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-09-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-H-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|RHE"/>
+			<string key="TypeAfspraak" value="Thorax op buckykamer"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{186316B6-0522-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-09-20T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{D1B7E7F6-4327-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-09-26T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{FBA52D1D-D629-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-09-30T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Cristabiopt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{14EBF177-1A2F-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-04T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{45B8390C-B031-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-10-10T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{EAF0FBA3-5D3A-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Foto"/>
+			<string key="org:resource" value="Kaakchir"/>
+			<string key="concept:name" value="Oral surgery"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.1w45"/>
+			<string key="TypeAfspraak" value="Foto"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{D9B47E2C-5D32-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="regieverpl. hematologie"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w61"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{AD96250D-5D32-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="60.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="regieverpl. hematologie"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w61"/>
+			<string key="TypeAfspraak" value="Informatie/voorlichting"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{934313F3-6D32-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Gemert, arts i.o."/>
+			<string key="org:resource" value="Kaakchir"/>
+			<string key="concept:name" value="Oral surgery"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.1w46"/>
+			<string key="TypeAfspraak" value="Consult"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{8941F5E4-5432-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="I-P2"/>
+			<string key="org:resource" value="NuclGen"/>
+			<string key="concept:name" value="Nuclear medicine"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.1w38"/>
+			<string key="TypeAfspraak" value="Toed. Technescan PYP"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{55F1C5C1-7332-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="35.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="I-kamer 4"/>
+			<string key="org:resource" value="NuclGen"/>
+			<string key="concept:name" value="Nuclear medicine"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.1w38"/>
+			<string key="TypeAfspraak" value="EF rust"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{04D94D97-9E34-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{C0ECA9D4-3E3A-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-10-20T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Hylkema"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P3"/>
+			<string key="TypeAfspraak" value="Consult"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{52F110E1-913C-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-10-24T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="regieverpl. hematologie"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w61"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt afdeling"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{C6B0DA59-E846-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-11-06T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="regieverpl. hematologie"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w61"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt afdeling"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{B230B1A2-FF4D-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-11-15T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Cristabiopt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{E3CA7575-5F50-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-11-18T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w60"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{BD3336C2-3451-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-19T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="regieverpl. hematologie"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w61"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{27771820-8656-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Lutgert"/>
+			<string key="org:resource" value="KNO"/>
+			<string key="concept:name" value="ENT"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt H"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{95C0BFEF-3B57-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt Heerde"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{6EBDAB3A-3E57-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 3863638"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="3863638_1"/>
+		<event>
+			<string key="Contactid" value="{87774D05-A956-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Voet links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{A3D18C6E-A756-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Voet links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 3896773"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="3896773_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{F8CACDA4-A955-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 5410335"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="5410335_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Hand rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{28246912-3C57-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Hand rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 6258781"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="6258781_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Bekken en beide heupen"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{D1825D26-AC56-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Bekken en beide heupen"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 6287343"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="6287343_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{3BE09156-D458-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 6408843"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="6408843_1"/>
+		<event>
+			<string key="Contactid" value="{A0580F16-7426-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-09-25T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Ettema"/>
+			<string key="org:resource" value="OrthoZ"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w65"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{B7D00A91-0730-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-10-08T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Anesthesioloog pre-op 1"/>
+			<string key="org:resource" value="Anasthes"/>
+			<string key="concept:name" value="Anaesthesiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.0w28"/>
+			<string key="TypeAfspraak" value="Pre-op patient"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{6EC1C6AE-FE2F-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-10-08T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Verpleegkundige pre-op 1"/>
+			<string key="org:resource" value="Anasthes"/>
+			<string key="concept:name" value="Anaesthesiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="Pre-op patient"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{245E98C7-7732-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="V-buckykamer 3"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-V-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.0w36"/>
+			<string key="TypeAfspraak" value="Bekken"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{099FE9FE-7A32-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="ECG kamer"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="Klinisch ECG ander specialisme"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{873D22D7-9B56-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Bekken en beide heupen"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{67B9CAA2-9556-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Bekken en beide heupen"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 6605754"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="6605754_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{A9900BED-A655-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 7003081"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="7003081_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Voet links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{BC5E2AEA-D658-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Voet links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 7172165"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="7172165_1"/>
+		<event>
+			<string key="Contactid" value="{19F63832-5148-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-11-05T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="V-buckykamer 3"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-V-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.0w36"/>
+			<string key="TypeAfspraak" value="Thorax op buckykamer"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{9F177869-3258-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 7234319"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="7234319_1"/>
+		<event>
+			<string key="Contactid" value="{EF1CCAAE-EDF9-E211-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Neurologie Opname"/>
+			<string key="org:resource" value="Neuro"/>
+			<string key="concept:name" value="Neurology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|OpnWL"/>
+			<string key="TypeAfspraak" value="Opname patient"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{8D06BF35-06FC-E211-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="60.0"/>
+			<date key="time:timestamp" value="2013-08-01T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Drs. Erftemeijer"/>
+			<string key="org:resource" value="MedPsych"/>
+			<string key="concept:name" value="Psychology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="I-SZ|P3.31a"/>
+			<string key="TypeAfspraak" value="Gesprek 60"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{C772451A-1804-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-08-07T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Pijnpoli Zwolle"/>
+			<string key="org:resource" value="Anasthes"/>
+			<string key="concept:name" value="Anaesthesiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P 74"/>
+			<string key="TypeAfspraak" value="E17"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{4E06D1BE-68FF-E211-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="105.0"/>
+			<date key="time:timestamp" value="2013-08-07T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Psychologisch mdw Heijink"/>
+			<string key="org:resource" value="MedPsych"/>
+			<string key="concept:name" value="Psychology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w76"/>
+			<string key="TypeAfspraak" value="Onderzoek 120"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{01CC2A21-2300-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-08-08T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Drs. Erftemeijer"/>
+			<string key="org:resource" value="MedPsych"/>
+			<string key="concept:name" value="Psychology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w76"/>
+			<string key="TypeAfspraak" value="Gesprek 30"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{7F39BEF2-C629-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-09-30T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Pijnpoli Zwolle"/>
+			<string key="org:resource" value="Anasthes"/>
+			<string key="concept:name" value="Anaesthesiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P 74"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{98D80069-CB42-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-01T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Pijnpoli Zwolle"/>
+			<string key="org:resource" value="Anasthes"/>
+			<string key="concept:name" value="Anaesthesiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P 74"/>
+			<string key="TypeAfspraak" value="W24"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{D6AE5456-6248-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-06T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Polman"/>
+			<string key="org:resource" value="Neuro"/>
+			<string key="concept:name" value="Neurology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V4.1w11"/>
+			<string key="TypeAfspraak" value="Controle na opname"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Bekken"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{7F8DF8ED-B255-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Bekken"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 7264138"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="7264138_1"/>
+		<event>
+			<string key="Contactid" value="{3A6B292D-8D10-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-08-29T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Hoekstra"/>
+			<string key="org:resource" value="ReumaH"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{D690FBAC-FC36-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-10-17T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Hoekstra"/>
+			<string key="org:resource" value="ReumaH"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{D981CEC3-2F4D-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-14T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="ECG kamer"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="ECG"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{775B3699-3F4D-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-14T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Yokota"/>
+			<string key="org:resource" value="Cardio"/>
+			<string key="concept:name" value="Cardiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w80"/>
+			<string key="TypeAfspraak" value="Controle pacemaker"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{3B2C21F0-344D-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-11-14T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Pacemaker/ICD controle kamer 1"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w79"/>
+			<string key="TypeAfspraak" value="Pacemaker controle"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{AE7EE780-8E52-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-11-21T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Hoekstra"/>
+			<string key="org:resource" value="ReumaH"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{D4D99E33-3957-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 7280552"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="7280552_1"/>
+		<event>
+			<string key="Contactid" value="{4E1A6427-0C25-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-09-24T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Tulp"/>
+			<string key="org:resource" value="OrthoZ"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w65"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{3B7272E9-0725-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-09-24T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="V-buckykamer 4 (ortho./chir)"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-V-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.0w64"/>
+			<string key="TypeAfspraak" value="Knie links"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thoracale wervelkolom"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{B1AB36B3-3B58-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thoracale wervelkolom"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8044391"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8044391_1"/>
+		<event>
+			<string key="Contactid" value="{B045C98B-BD30-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-09T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-H-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|RHE"/>
+			<string key="TypeAfspraak" value="Bekken"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Lumbo-sacrale wervelkolom"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{3AE6252C-D358-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Lumbo-sacrale wervelkolom"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8183820"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8183820_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{F0E1D0BD-BD55-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8232941"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8232941_1"/>
+		<event>
+			<string key="Contactid" value="{7D26262A-8452-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-21T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Hoekstra"/>
+			<string key="org:resource" value="ReumaH"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt 6 maand"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Voet links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{B940F1E4-C155-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Voet links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8360754"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8360754_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{D1706FE6-AE55-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8384204"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8384204_1"/>
+		<event>
+			<string key="Contactid" value="{5AD315D0-4C0A-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-08-21T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Zijlstra"/>
+			<string key="org:resource" value="Reuma"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.1w67"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{8A9FC8CF-4957-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8409413"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8409413_1"/>
+		<event>
+			<string key="Contactid" value="{D9C7CD50-F951-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-20T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Ingen"/>
+			<string key="org:resource" value="Kaakchir"/>
+			<string key="concept:name" value="Oral surgery"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.1w47"/>
+			<string key="TypeAfspraak" value="Consult"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{9A9D4C0B-1758-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Hoekstra"/>
+			<string key="org:resource" value="ReumaH"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Hand links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{B33FE97E-3C58-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Hand links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8484713"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8484713_1"/>
+		<event>
+			<string key="Contactid" value="{D846999E-A556-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{16613C3D-A256-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8501130"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8501130_1"/>
+		<event>
+			<string key="Contactid" value="{5962777C-A41B-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="20.0"/>
+			<date key="time:timestamp" value="2013-09-12T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Mantel"/>
+			<string key="org:resource" value="Neuro"/>
+			<string key="concept:name" value="Neurology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt Heerde"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{19EBFB55-A91B-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-09-12T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-H-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|RHE"/>
+			<string key="TypeAfspraak" value="Bekken en beide heupen"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{8B209090-2D48-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-31T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Mantel"/>
+			<string key="org:resource" value="Neuro"/>
+			<string key="concept:name" value="Neurology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt Heerde"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{18F8A1B5-AE4B-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="20.0"/>
+			<date key="time:timestamp" value="2013-11-12T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Orthopeed i.o bij dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{8DD8A39D-C951-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-19T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Multidisciplnair spreekuur"/>
+			<string key="org:resource" value="OrthoZ"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.0w32"/>
+			<string key="TypeAfspraak" value="MarcaÃ¯nisatie heup links"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{47A8ADDE-9E56-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Bekken"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{D8351BE0-A556-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Bekken"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8565203"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8565203_1"/>
+		<event>
+			<string key="Contactid" value="{78B599D9-6011-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-08-30T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dokter Tjia"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P3"/>
+			<string key="TypeAfspraak" value="Cataract"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{BFB1D4EF-9B13-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-08-31T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dokter Tjia"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P3"/>
+			<string key="TypeAfspraak" value="Post Operatief"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{400036BC-5927-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-09-27T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="TOA"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P3"/>
+			<string key="TypeAfspraak" value="Post operatief TOA"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{86B0128A-6732-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-11T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dokter Tjia"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P3"/>
+			<string key="TypeAfspraak" value="Cataract"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{D1DD18EF-9734-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-10-12T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dokter Tjia"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P3"/>
+			<string key="TypeAfspraak" value="Post Operatief"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{6835381F-A04A-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-11T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="TOA"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|P3"/>
+			<string key="TypeAfspraak" value="Post operatief TOA"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{C5B97F37-CD58-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8625228"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8625228_1"/>
+		<event>
+			<string key="Contactid" value="{E22FF9C8-4836-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-16T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-H-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|RHE"/>
+			<string key="TypeAfspraak" value="Bovenbeen/knie L"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{F742FFD1-A556-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Bekken"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{B5FD70A2-A356-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Bekken"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 8645411"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="8645411_1"/>
+		<event>
+			<string key="Contactid" value="{6D509D3A-A556-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Orthopeed i.o bij dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{7C0E1D1D-9E56-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9405936"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9405936_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Onderbeen rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{B711D0E3-A956-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Onderbeen rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9424896"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9424896_1"/>
+		<event>
+			<string key="Contactid" value="{BD4DEC2B-2748-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-10-31T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Verpleegkundige pre-op 1"/>
+			<string key="org:resource" value="Anasthes"/>
+			<string key="concept:name" value="Anaesthesiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="Pre-op patient"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{019A600A-2848-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-10-31T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Anesthesioloog pre-op 1"/>
+			<string key="org:resource" value="Anasthes"/>
+			<string key="concept:name" value="Anaesthesiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.0w28"/>
+			<string key="TypeAfspraak" value="Pre-op patient"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{6D49436A-9B56-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Orthopeed i.o bij dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Enkel links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{C422A9BD-9656-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Enkel links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9426483"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9426483_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Bekken"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{7D5312E4-CC58-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Bekken"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9433606"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9433606_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Schouder rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{8E0A7056-4158-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Schouder rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9458839"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9458839_1"/>
+		<event>
+			<string key="Contactid" value="{AA46C18B-6D32-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-10-10T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. ter Schiphorst"/>
+			<string key="org:resource" value="KNO"/>
+			<string key="concept:name" value="ENT"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|KNOw2"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thoracale wervelkolom"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{5CB9ADD7-BD55-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thoracale wervelkolom"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9462804"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9462804_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Voet rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{600949E1-5057-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Voet rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9588867"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9588867_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Hand rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{CDEDCFFC-4757-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Hand rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9687909"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9687909_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{6A265F25-3A57-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9690777"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9690777_1"/>
+		<event>
+			<string key="Contactid" value="{F2C34A1A-FD24-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-09-24T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Lutgert"/>
+			<string key="org:resource" value="KNO"/>
+			<string key="concept:name" value="ENT"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt H"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{263890E4-2730-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-10-08T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Lutgert"/>
+			<string key="org:resource" value="KNO"/>
+			<string key="concept:name" value="ENT"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="K|Poli 24"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt K"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{E0B0A9C6-2858-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9773250"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9773250_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Lumbo-sacrale wervelkolom"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{7EA158DE-BB55-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Lumbo-sacrale wervelkolom"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9784591"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9784591_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{5641007D-3958-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9787729"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9787729_1"/>
+		<event>
+			<string key="Contactid" value="{14C2CAC7-8406-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-08-16T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Timmer"/>
+			<string key="org:resource" value="Cardio"/>
+			<string key="concept:name" value="Cardiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w80"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{F5DB61DE-A656-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Voet rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{9FE8F94D-A556-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Voet rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9803727"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9803727_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Schouder rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{F656EFFD-B655-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Schouder rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9827324"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9827324_1"/>
+		<event>
+			<string key="Contactid" value="{C8069B2D-0716-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-09-05T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="ECG kamer"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="ECG DCC"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{3682895B-2016-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-09-05T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Echokamer 6"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w79"/>
+			<string key="TypeAfspraak" value="DCC Echo patient"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Lumbo-sacrale wervelkolom"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{3282F4F5-2858-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Lumbo-sacrale wervelkolom"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9830467"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9830467_1"/>
+		<event>
+			<string key="Contactid" value="{BD26DED9-A634-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-10-14T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Dr. de Groot"/>
+			<string key="org:resource" value="Reuma"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.1w67"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{2F5FF146-B234-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-10-14T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="V-buckykamer 1"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-V-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V3.0w36"/>
+			<string key="TypeAfspraak" value="Sacro-iliacale gewrichten"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{20D3350E-6448-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-07T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. de Groot"/>
+			<string key="org:resource" value="Reuma"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.1w67"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{FB2024E9-2B58-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9833039"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9833039_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-25T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{FEE72B98-BB55-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9833970"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9833970_1"/>
+		<event>
+			<string key="Contactid" value="{879E30DA-79FB-E211-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-08-02T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Andrade Ferreira"/>
+			<string key="org:resource" value="Cardio"/>
+			<string key="concept:name" value="Cardiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe klacht bekende patiÃ«nt H"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{4E586D05-3F24-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-09-23T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="ECG kamer"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="ECG bij opname"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{CB2C4002-3448-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-01T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Andrade Ferreira"/>
+			<string key="org:resource" value="Cardio"/>
+			<string key="concept:name" value="Cardiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w80"/>
+			<string key="TypeAfspraak" value="Controle na opname algemeen"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{46E38AE1-3248-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-01T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="ECG kamer"/>
+			<string key="org:resource" value="Cardiofu"/>
+			<string key="concept:name" value="Cardiology functional examination"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.2w78"/>
+			<string key="TypeAfspraak" value="ECG"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{E96D66EF-C551-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-19T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. Hobbel (arts-assistent)"/>
+			<string key="org:resource" value="KNO"/>
+			<string key="concept:name" value="ENT"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="W|KNOw1"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{3204FE5B-A556-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Orthopeed i.o bij dr. Ettema"/>
+			<string key="org:resource" value="OrthHeer"/>
+			<string key="concept:name" value="Orthopaedics"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-26T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Bekken"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{8FC50A09-9956-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Bekken"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9835949"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9835949_1"/>
+		<event>
+			<string key="Contactid" value="{A2770CDA-7C26-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-09-26T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Dr. de Groot"/>
+			<string key="org:resource" value="Reuma"/>
+			<string key="concept:name" value="Rheumatology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V2.1w67"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{A1290F01-4457-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt Heerde"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{B54CC013-4A57-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9843873"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9843873_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Lumbo-sacrale wervelkolom"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{6FE42403-2E58-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Lumbo-sacrale wervelkolom"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9847974"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9847974_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Knie rechts"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{6AB8C646-D958-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Knie rechts"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9888594"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9888594_1"/>
+		<event>
+			<string key="Contactid" value="{30BE9F82-FB2C-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-10-04T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Sahtoe (arts i.o.)"/>
+			<string key="org:resource" value="Cardio"/>
+			<string key="concept:name" value="Cardiology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt H"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{BF3DBA57-7235-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-10-15T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. Duijm"/>
+			<string key="org:resource" value="Oogheel"/>
+			<string key="concept:name" value="Opthalmology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="K|Poli 28"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{130C48EF-4B57-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9902877"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9902877_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{62E4E546-3058-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9904080"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9904080_1"/>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-27T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Ribdetail links"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{DB3E2544-5457-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Ribdetail links"/>
+		</event>
+	</trace>
+	<trace>
+		<string key="description" value="instance with id 9922060"/>
+		<string key="creator" value="Fluxicon Disco"/>
+		<string key="concept:name" value="9922060_1"/>
+		<event>
+			<string key="Contactid" value="{A34856C8-B6F9-E211-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="concept:name" value="Radio-H-bucky room"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|RHE"/>
+			<string key="TypeAfspraak" value="Thorax op buckykamer"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{40911987-BBF9-E211-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="30.0"/>
+			<date key="time:timestamp" value="2013-07-31T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Nieuwe patiÃ«nt Heerde"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{DE48D881-BC04-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-08-14T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt Heerde"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{7B5DAE4B-7F09-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="5.0"/>
+			<date key="time:timestamp" value="2013-08-20T00:00:00+02:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Van den Berg"/>
+			<string key="org:resource" value="Neuro"/>
+			<string key="concept:name" value="Neurology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V4.1w11"/>
+			<string key="TypeAfspraak" value="Telefonische afspraak"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{AEFB9E0D-C551-E311-A0A2-00505687006C}"/>
+			<string key="ContactMinuten" value="15.0"/>
+			<date key="time:timestamp" value="2013-11-20T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="dr. van Marwijk Kooy"/>
+			<string key="org:resource" value="Onco"/>
+			<string key="concept:name" value="Oncology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="H|Heerde"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt Heerde"/>
+		</event>
+		<event>
+			<string key="Contactid" value="{F37AFBA9-3558-E311-B239-00505687006B}"/>
+			<string key="ContactMinuten" value="10.0"/>
+			<date key="time:timestamp" value="2013-11-28T00:00:00+01:00"/>
+			<string key="AgendaOmschrijving" value="Dr. Van den Berg"/>
+			<string key="org:resource" value="Neuro"/>
+			<string key="concept:name" value="Neurology"/>
+			<string key="ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="PoliBkey" value="V|V4.1w11"/>
+			<string key="TypeAfspraak" value="Controle patiÃ«nt"/>
+		</event>
+		<event>
+			<string key="BA_ContactMinuten" value="15"/>
+			<date key="time:timestamp" value="2013-11-29T00:00:00+01:00"/>
+			<string key="BA_AgendaOmschrijving" value="H-buckykamer"/>
+			<string key="org:resource" value="Radio"/>
+			<string key="act" value="Radio-Thorax op buckykamer"/>
+			<string key="concept:name" value="RADIO:Radio-H-bucky room"/>
+			<string key="BA_ContactID" value="{8376960A-E158-E311-B239-00505687006B}"/>
+			<string key="BA_ContactStatus" value="V Afgesloten Afspraak"/>
+			<string key="lc" value="complete"/>
+			<string key="BA_ZISAfdelingCode" value="Radio"/>
+			<string key="BA_PoliBkey" value="H|RHE"/>
+			<string key="lifecycle:transition" value="complete"/>
+			<string key="TypeAfspraak" value="Radio-Thorax op buckykamer"/>
+		</event>
+	</trace>
+</log>
