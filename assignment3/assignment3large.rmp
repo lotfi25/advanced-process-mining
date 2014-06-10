@@ -24,10 +24,10 @@
       <operator activated="true" class="subprocess" compatibility="5.3.015" expanded="true" height="76" name="Subprocess_K" width="90" x="313" y="300">
         <process expanded="true">
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (9)" width="90" x="45" y="30"/>
-          <operator activated="true" class="prom:read_log" compatibility="1.0.009" expanded="true" height="60" name="Read Log File (4)" width="90" x="180" y="30">
+          <operator activated="true" class="prom:read_log" compatibility="1.0.009" expanded="true" height="60" name="Read Log File (4)" width="90" x="179" y="30">
             <parameter key="Visualize Log" value="Visualize Log as ExampleSet"/>
-            <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\K_Before.xes"/>
-            <parameter key="type of the log file" value="Naive"/>
+            <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\discovery\K_Before_80%_15.xes"/>
+            <parameter key="type of the log file" value="Buffered"/>
           </operator>
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (10)" width="90" x="315" y="30"/>
           <operator activated="true" class="remember" compatibility="5.3.015" expanded="true" height="60" name="Remember (5)" width="90" x="380" y="255">
@@ -37,8 +37,8 @@
             <parameter key="remove_from_process" value="true"/>
           </operator>
           <operator activated="true" class="prom:mine_petri_net_with_inductive_miner" compatibility="1.0.009" expanded="true" height="94" name="Mine Petri Net with Inductive Miner (5)" width="90" x="581" y="120">
-            <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner"/>
-            <parameter key="Noise Threshold" value="1.0"/>
+            <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner - Infrequent"/>
+            <parameter key="Noise Threshold" value="0.0"/>
             <parameter key="Incompleteness Threshold" value="1.0"/>
           </operator>
           <connect from_port="in 1" to_op="Multiply (9)" to_port="input"/>
@@ -59,7 +59,7 @@
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (7)" width="90" x="45" y="30"/>
           <operator activated="true" class="prom:read_log" compatibility="1.0.009" expanded="true" height="60" name="Read Log File (3)" width="90" x="180" y="30">
             <parameter key="Visualize Log" value="Visualize Log as ExampleSet"/>
-            <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\H_Before.xes"/>
+            <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\discovery\H_Before_80%_15.xes"/>
             <parameter key="type of the log file" value="Buffered"/>
           </operator>
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (8)" width="90" x="315" y="30"/>
@@ -70,8 +70,8 @@
             <parameter key="remove_from_process" value="true"/>
           </operator>
           <operator activated="true" class="prom:mine_petri_net_with_inductive_miner" compatibility="1.0.009" expanded="true" height="94" name="Mine Petri Net with Inductive Miner (4)" width="90" x="514" y="120">
-            <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner"/>
-            <parameter key="Noise Threshold" value="1.0"/>
+            <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner - Infrequent"/>
+            <parameter key="Noise Threshold" value="0.0"/>
             <parameter key="Incompleteness Threshold" value="1.0"/>
           </operator>
           <connect from_port="in 1" to_op="Multiply (7)" to_port="input"/>
@@ -92,7 +92,7 @@
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (3)" width="90" x="45" y="165"/>
           <operator activated="true" class="prom:read_log" compatibility="1.0.009" expanded="true" height="60" name="Read Log File" width="90" x="179" y="30">
             <parameter key="Visualize Log" value="Visualize Log as ExampleSet"/>
-            <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\V_Before.xes"/>
+            <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\discovery\V_Before_65%_15.xes"/>
             <parameter key="type of the log file" value="Buffered"/>
           </operator>
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (4)" width="90" x="313" y="30"/>
@@ -103,8 +103,8 @@
             <parameter key="remove_from_process" value="true"/>
           </operator>
           <operator activated="true" class="prom:mine_petri_net_with_inductive_miner" compatibility="1.0.009" expanded="true" height="94" name="Mine Petri Net with Inductive Miner (2)" width="90" x="581" y="120">
-            <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner"/>
-            <parameter key="Noise Threshold" value="1.0"/>
+            <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner - Infrequent"/>
+            <parameter key="Noise Threshold" value="0.0"/>
             <parameter key="Incompleteness Threshold" value="1.0"/>
           </operator>
           <connect from_port="in 1" to_op="Multiply (3)" to_port="input"/>
@@ -125,7 +125,7 @@
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (5)" width="90" x="45" y="30"/>
           <operator activated="true" class="prom:read_log" compatibility="1.0.009" expanded="true" height="60" name="Read Log File (2)" width="90" x="179" y="30">
             <parameter key="Visualize Log" value="Visualize Log as ExampleSet"/>
-            <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\D_Before.xes"/>
+            <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\discovery\D_Before_72%_15.xes"/>
             <parameter key="type of the log file" value="Buffered"/>
           </operator>
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (6)" width="90" x="315" y="30"/>
@@ -136,8 +136,8 @@
             <parameter key="remove_from_process" value="true"/>
           </operator>
           <operator activated="true" class="prom:mine_petri_net_with_inductive_miner" compatibility="1.0.009" expanded="true" height="94" name="Mine Petri Net with Inductive Miner (3)" width="90" x="514" y="120">
-            <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner"/>
-            <parameter key="Noise Threshold" value="1.0"/>
+            <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner - Infrequent"/>
+            <parameter key="Noise Threshold" value="0.0"/>
             <parameter key="Incompleteness Threshold" value="1.0"/>
           </operator>
           <connect from_port="in 1" to_op="Multiply (5)" to_port="input"/>
