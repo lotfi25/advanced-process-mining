@@ -17,7 +17,7 @@
       <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply" width="90" x="112" y="120"/>
       <operator activated="true" class="prom:read_log" compatibility="1.0.009" expanded="true" height="60" name="Read Log File" width="90" x="179" y="30">
         <parameter key="Visualize Log" value="Visualize Log as ExampleSet"/>
-        <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\discovery\K_Before_80%_15.xes"/>
+        <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\discovery-unfiltered\v_before.xes"/>
         <parameter key="type of the log file" value="Naive"/>
       </operator>
       <operator activated="true" class="loop_parameters" compatibility="5.3.015" expanded="true" height="112" name="Loop Parameters" width="90" x="380" y="30">
@@ -31,7 +31,7 @@
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (3)" width="90" x="45" y="210"/>
           <operator activated="true" class="prom:mine_petri_net_with_inductive_miner" compatibility="1.0.009" expanded="true" height="94" name="Mine Petri Net with Inductive Miner" width="90" x="246" y="30">
             <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner - Infrequent"/>
-            <parameter key="Noise Threshold" value="0.1"/>
+            <parameter key="Noise Threshold" value="1.0"/>
             <parameter key="Incompleteness Threshold" value="1.0"/>
           </operator>
           <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="94" name="Multiply (4)" width="90" x="380" y="165"/>

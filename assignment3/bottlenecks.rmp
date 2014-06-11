@@ -21,7 +21,7 @@
         <parameter key="type of the log file" value="Buffered"/>
       </operator>
       <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="112" name="Multiply (2)" width="90" x="179" y="345"/>
-      <operator activated="true" class="prom:mine_petri_net_with_inductive_miner" compatibility="1.0.009" expanded="true" height="94" name="Mine Petri Net with Inductive Miner" width="90" x="380" y="30">
+      <operator activated="true" class="prom:mine_petri_net_with_inductive_miner" compatibility="1.0.009" expanded="true" height="94" name="Mine Petri Net with Inductive Miner" width="90" x="313" y="30">
         <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner - Infrequent"/>
         <parameter key="Noise Threshold" value="0.0"/>
         <parameter key="Incompleteness Threshold" value="1.0"/>
