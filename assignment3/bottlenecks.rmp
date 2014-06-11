@@ -17,19 +17,19 @@
       <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="130" name="Multiply" width="90" x="45" y="165"/>
       <operator activated="true" class="prom:read_log" compatibility="1.0.009" expanded="true" height="60" name="Read Log File" width="90" x="179" y="30">
         <parameter key="Visualize Log" value="Visualize Log using ProM Log Visualizer"/>
-        <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\discovery\V_Before_65%_15.xes"/>
+        <parameter key="filename" value="D:\Documents\GitHub\advanced-process-mining\assignment3\discovery\K_After_70%_17.xes"/>
         <parameter key="type of the log file" value="Buffered"/>
       </operator>
       <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="112" name="Multiply (2)" width="90" x="179" y="345"/>
       <operator activated="true" class="prom:mine_petri_net_with_inductive_miner" compatibility="1.0.009" expanded="true" height="94" name="Mine Petri Net with Inductive Miner" width="90" x="313" y="30">
         <parameter key="Define Inductive Miner" value="Mine Petri net with Inductive Miner - Infrequent"/>
-        <parameter key="Noise Threshold" value="0.0"/>
+        <parameter key="Noise Threshold" value="0.1"/>
         <parameter key="Incompleteness Threshold" value="1.0"/>
       </operator>
       <operator activated="true" class="multiply" compatibility="5.3.015" expanded="true" height="112" name="Multiply (3)" width="90" x="514" y="30"/>
       <operator activated="true" class="prom:replay_a_log_on_petri_net_for_performance_conformance_analysis" compatibility="1.0.009" expanded="true" height="94" name="Replay a Log on Petri Net for Performance / Conformance Analysis" width="90" x="514" y="345">
         <parameter key="visualize performance" value="Performance Projection to Model"/>
-        <parameter key="Max Explored States (in Hundreds)" value="100"/>
+        <parameter key="Max Explored States (in Hundreds)" value="200"/>
       </operator>
       <operator activated="true" class="prom:replay_a_log_on_petri_net_for_conformance" compatibility="1.0.009" expanded="true" height="112" name="Replay a Log on Petri Net for Conformance Analysis" width="90" x="514" y="210">
         <parameter key="Calculate Precision / Generalization" value="false"/>
